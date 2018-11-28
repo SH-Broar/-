@@ -15,6 +15,7 @@ glutDisplayFunc(drawScene); // 출력 함수의 지정
 glutReshapeFunc(Reshape); // 다시 그리기 함수 지정
 glutMainLoop(); // 이벤트 처리 시작
 }
+
 GLvoid drawScene() // 출력 함수
 {
 	glClearColor(0.0f, 0.0f, 1.0f, 1.0f); // 바탕색을 'blue' 로 지정
